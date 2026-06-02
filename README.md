@@ -140,7 +140,7 @@ Configuration Screenshots
 
 pfSense Configuration
 
-<p align="center">
+<p align="left">
   <img src="screenshots/Firewall Rules ATLAS.png" width="30%">
   <img src="screenshots/Firewall Rules Draco.png" width="30%">
   <img src="screenshots/Interface Assignments.png" width="30%">
