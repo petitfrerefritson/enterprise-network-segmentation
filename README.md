@@ -51,10 +51,10 @@ The objective was to improve security, reduce attack surface, separate device tr
 - Firewall Rules
 
 <p align="center">
-  <img src="screenshots/Firewall Rules ATLAS.png" width="24%">
-  <img src="screenshots/Firewall Rules Draco.png" width="24%">
-  <img src="screenshots/Membership Table.png" width="24%">
-  <img src="screenshots/Interface Assignments.png" width="24%">
+  <img src="screenshots/Firewall Rules ATLAS.png" width="30%">
+  <img src="screenshots/Firewall Rules Draco.png" width="30%">
+  <img src="screenshots/Membership Table.png" width="30%">
+  <img src="screenshots/Interface Assignments.png" width="30%">
 </p>
 
 <p align="center">
