@@ -14,6 +14,7 @@ The objective was to reduce attack surface, isolate device trust levels, improve
 Project Summary:
 
 Designed and implemented a fully segmented enterprise network featuring:
+
     - 7 isolated VLANs
     - Dedicated management network
     - Centralized DNS filtering with AdGuard Home
@@ -24,10 +25,15 @@ Designed and implemented a fully segmented enterprise network featuring:
     - Documentation-driven design and implementation
 
 Architecture Diagram
-Homelab Topology
+
 Homelab Topology
 
+<p align="left">
+<img src="diagrams/network-diagram.png.png" width="80%">
+</p>
+
 Architecture Highlights
+
 Network Segmentation
 Implemented VLAN-based isolation to separate:
     - Trusted Devices
