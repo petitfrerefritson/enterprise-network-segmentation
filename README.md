@@ -121,7 +121,7 @@ pfSense Configuration
 
 MokerLink Switch Configuration
 
-<p align="center">
+<p align="left">
 <img src="screenshots/Membership Table.png" width="30%">
 </p>
 
@@ -136,7 +136,7 @@ Wireless Infrastructure
 
 DNS Infrastructure
 
-<p align="center">
+<p align="left">
 <img src="screenshots/Adguard.png" width="30%">
 </p>
 
