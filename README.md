@@ -41,14 +41,16 @@ This approach reduces lateral movement opportunities and follows common enterpri
 Management Plane Protection
 Created a dedicated management network to isolate administrative services from user traffic.
 Protected systems include:
-    • pfSense Firewall
-    • Managed Switch
-    • Access Point
-    • Proxmox Hypervisor
-    • Infrastructure Management Services
+
+    - pfSense Firewall
+    - Managed Switch
+    - Access Point
+    - Proxmox Hypervisor
+    - Infrastructure Management Services
 
 Centralized DNS
 Implemented AdGuard Home as the centralized DNS platform providing:
+
     • DNS filtering
     • DNS logging
     • Malware domain protection
