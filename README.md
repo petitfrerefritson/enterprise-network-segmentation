@@ -55,8 +55,6 @@ Architecture Highlights
 
 Implemented VLAN-based isolation to separate:
 
-<br>
-<br>
 
     - Trusted Devices
     - IoT Devices
