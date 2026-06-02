@@ -104,12 +104,14 @@ Identity & Authentication
     - Active Directory
     - DNS
     - DHCP
+
 Security
 
     - VLAN Segmentation
     - Firewall Rules
     - DNS Filtering
     - Management Network Isolation
+
 Future Platform Integrations
 
     - Security Onion
@@ -117,6 +119,7 @@ Future Platform Integrations
     - Certificate-Based Authentication
     - Centralized Logging
     - Monitoring and Alerting
+
 
 Configuration Screenshots
 
@@ -153,6 +156,7 @@ DNS Infrastructure
 
 
 Lessons Learned
+
 Key takeaways from this project include:
     - Importance of management plane isolation
     - Benefits of centralized DNS architecture
@@ -162,8 +166,11 @@ Key takeaways from this project include:
     - Infrastructure documentation best practices
     - Security-first network design
 
+
 Future Improvements
+
 Planned enhancements include:
+
     - Security Onion deployment
     - Centralized logging and SIEM integration
     - WPA3 Enterprise authentication
@@ -173,16 +180,23 @@ Planned enhancements include:
     - Automated configuration backups
     - Infrastructure-as-Code deployment workflows
 
+
 Detailed Documentation
+
 Additional technical documentation is available within the /docs directory.
+
 Deployment Guides
+
     - Network Segmentation Deployment Guide
     - VLAN Design Documentation
     - Firewall Rule Documentation
     - AdGuard Home Configuration Guide
 
+
 Resume Impact
+
 This project demonstrates practical experience with:
+
     - Enterprise network design
     - Network segmentation
     - Firewall administration
@@ -192,6 +206,8 @@ This project demonstrates practical experience with:
     - Security-focused architecture
     - Technical documentation
 
+
 Resume Bullet
+
 Designed and implemented a fully segmented enterprise-style network using pfSense, VLANs, managed switching, Active Directory, and centralized DNS services. Created isolated Trusted, IoT, Lab, Guest, Server, and Management networks with firewall-controlled inter-VLAN routing, DNS filtering through AdGuard Home, and secure management-plane separation, improving visibility while reducing lateral movement risk.
 
