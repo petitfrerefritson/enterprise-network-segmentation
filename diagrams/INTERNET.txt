@@ -1,0 +1,117 @@
+                         INTERNET
+                             │
+                             ▼
+                    ┌─────────────────┐
+                    │ Wireless Bridge │
+                    │  (WAN Uplink)   │
+                    └────────┬────────┘
+                             │
+                             ▼
+                    ┌─────────────────┐
+                    │   Edge Firewall │
+                    │   pfSense Plus  │
+                    └────────┬────────┘
+                             │
+                      802.1Q Trunk
+                             │
+                             ▼
+                    ┌─────────────────┐
+                    │  Core Switch    │
+                    │  Managed 10GbE  │
+                    └──────┬─────┬────┘
+                           │     │
+         ┌─────────────────┘     └─────────────────┐
+         │                                         │
+         ▼                                         ▼
+
+┌───────────────────┐                  ┌───────────────────┐
+│ Management VLAN   │                  │ Proxmox Cluster   │
+│ DRACO             │                  │ Virtualization    │
+└─────────┬─────────┘                  └─────────┬─────────┘
+          │                                      │
+          ▼                                      ▼
+
+ ┌─────────────┐                    ┌───────────────────────┐
+ │ Core Switch │                    │ Domain Controller     │
+ │ Access Point│                    │ AD DS + DNS           │
+ │ Hypervisor  │                    └───────────────────────┘
+ └─────────────┘
+                                          ┌───────────────────────┐
+                                          │ PKI / RADIUS          │
+                                          │ AD CS + NPS           │
+                                          └───────────────────────┘
+
+                                          ┌───────────────────────┐
+                                          │ DNS Filtering         │
+                                          │ AdGuard Home          │
+                                          └───────────────────────┘
+
+                                          ┌───────────────────────┐
+                                          │ Documentation Portal  │
+                                          │ Wiki.js               │
+                                          └───────────────────────┘
+
+                                          ┌───────────────────────┐
+                                          │ Security Monitoring   │
+                                          │ Security Onion        │
+                                          └───────────────────────┘
+
+
+
+──────────────────────────────────────────────────────────────
+
+ORION      → Trusted Endpoints
+ANDROMEDA  → IoT Devices
+ATLAS      → Lab Environment
+PEGASUS    → Guest Network
+CASSIOPEIA → Server Infrastructure
+DRACO      → Management Plane
+BLACKHOLE  → Unused Ports
+
+──────────────────────────────────────────────────────────────
+
+Authentication Flow
+
+User Device
+    │
+    ▼
+Wi-Fi (WPA2/WPA3 Enterprise)
+    │
+    ▼
+NPS / RADIUS
+    │
+    ▼
+Active Directory
+    │
+    ▼
+Certificate Validation (AD CS)
+
+──────────────────────────────────────────────────────────────
+
+DNS Flow
+
+Client
+   │
+   ▼
+AdGuard Home
+   │
+   ▼
+Active Directory DNS
+   │
+   ▼
+Internet
+
+──────────────────────────────────────────────────────────────
+
+Monitoring Flow
+
+Switch Mirror Port
+        │
+        ▼
+Security Onion
+        │
+        ▼
+Centralized Logging
+        │
+        ▼
+Alerting / Investigation
