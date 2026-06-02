@@ -55,7 +55,6 @@ Architecture Highlights
 
 Implemented VLAN-based isolation to separate:
 
-
     - Trusted Devices
     - IoT Devices
     - Guest Devices
@@ -65,8 +64,6 @@ Implemented VLAN-based isolation to separate:
     - Unused/Sink Ports
 
 <br>
-<br>
-
 This approach reduces lateral movement opportunities and follows common enterprise security practices.
 
 <br>
@@ -80,8 +77,6 @@ Created a dedicated management network to isolate administrative services from u
 <br>
 
 Protected systems include:
-
-<br>
 
     - pfSense Firewall
     - Managed Switch
@@ -97,8 +92,6 @@ Centralized DNS
 
 Implemented AdGuard Home as the centralized DNS platform providing:
 
-<br>
-
     - DNS filtering
     - DNS logging
     - Malware domain protection
@@ -113,8 +106,6 @@ Infrastructure Services
 
 The segmented architecture supports:
 
-<br>
-
     - Active Directory
     - DNS Services
     - Certificate Services
@@ -125,8 +116,6 @@ The segmented architecture supports:
 <br>
 
 VLAN Design
-
-<br>
 
 | VLAN | Name | Purpose |
 |------|------|----------|
@@ -161,8 +150,6 @@ Technologies Used
 
 Core Infrastructure
 
-<br>
-
     - pfSense Plus
     - Proxmox VE
     - Dell Precision 7810
@@ -173,8 +160,6 @@ Core Infrastructure
 
 Identity & Authentication
 
-<br>
-
     - Active Directory
     - DNS
     - DHCP
@@ -182,8 +167,6 @@ Identity & Authentication
 <br>
 
 Security
-
-<br>
 
     - VLAN Segmentation
     - Firewall Rules
@@ -193,7 +176,6 @@ Security
 <br>
 
 Future Platform Integrations
-<br>
 
     - Security Onion
     - WPA3 Enterprise
@@ -208,8 +190,6 @@ Configuration Screenshots
 <br>
 
 pfSense Configuration
-
-<br>
 
 <p align="left">
   <img src="screenshots/Firewall Rules ATLAS.png" width="30%">
@@ -241,8 +221,6 @@ Wireless Infrastructure
 
 DNS Infrastructure
 
-<br>
-
 <p align="left">
 <img src="screenshots/Adguard.png" width="30%">
 </p>
@@ -250,8 +228,6 @@ DNS Infrastructure
 <br>
 
 Verifying Firewall Rules
-
-<br>
 
 <p>
 <img src="screenshots/Ipconfig v30.png" width="30%">
@@ -266,8 +242,6 @@ Lessons Learned
 <br>
 
 Key takeaways from this project include:
-    
-<br>
     
     - Importance of management plane isolation
     - Benefits of centralized DNS architecture
@@ -284,8 +258,6 @@ Future Improvements
 <br>
 
 Planned enhancements include:
-
-<br>
 
     - Security Onion deployment
     - Centralized logging and SIEM integration
@@ -308,8 +280,6 @@ Additional technical documentation is available within the /docs directory.
 
 Deployment Guides
 
-<br>
-
     - Network Segmentation Deployment Guide
     - VLAN Design Documentation
     - Firewall Rule Documentation
@@ -322,8 +292,6 @@ Resume Impact
 <br>
 
 This project demonstrates practical experience with:
-
-<br>
 
     - Enterprise network design
     - Network segmentation
