@@ -137,8 +137,13 @@ Future Platform Integrations
 
 Configuration Screenshots
 
+<br>
+<br>
 
 pfSense Configuration
+
+<br>
+<br>
 
 <p align="left">
   <img src="screenshots/Firewall Rules ATLAS.png" width="30%">
@@ -146,14 +151,23 @@ pfSense Configuration
   <img src="screenshots/Interface Assignments.png" width="30%">
   </p>
 
+<br>
+<br>
 
 MokerLink Switch Configuration
+<br>
+<br>
 
 <p align="left">
 <img src="screenshots/Membership Table.png" width="30%">
 </p>
 
+<br>
+<br>
+
 Wireless Infrastructure
+<br>
+<br>
 
 <p align="center">
   <img src="screenshots/GLNET Devices.png" width="32%">
