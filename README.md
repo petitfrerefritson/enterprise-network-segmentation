@@ -23,7 +23,6 @@ Project Summary:
 Designed and implemented a fully segmented enterprise network featuring:
 
 <br>
-<br>
 
     - 7 isolated VLANs
     - Dedicated management network
@@ -34,7 +33,6 @@ Designed and implemented a fully segmented enterprise network featuring:
     - Infrastructure prepared for Security Onion deployment
     - Documentation-driven design and implementation
 
-<br>
 <br>
 
 Architecture Diagram
