@@ -184,18 +184,3 @@ This project demonstrates practical experience with:
 Resume Bullet
 Designed and implemented a fully segmented enterprise-style network using pfSense, VLANs, managed switching, Active Directory, and centralized DNS services. Created isolated Trusted, IoT, Lab, Guest, Server, and Management networks with firewall-controlled inter-VLAN routing, DNS filtering through AdGuard Home, and secure management-plane separation, improving visibility while reducing lateral movement risk.
 
-<p align="center">
-  <img src="screenshots/Firewall Rules ATLAS.png" width="30%">
-  <img src="screenshots/Firewall Rules Draco.png" width="30%">
-  <img src="screenshots/Membership Table.png" width="30%">
-  <img src="screenshots/Interface Assignments.png" width="30%">
-</p>
-
-<p align="center">
-  <img src="screenshots/GLNET Devices.png" width="32%">
-  <img src="screenshots/GLNET Interfaces.png" width="32%">
-  <img src="screenshots/Wireless overview.png" width="32%">
-</p>
-
----
-
