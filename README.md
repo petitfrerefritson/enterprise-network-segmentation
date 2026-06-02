@@ -40,11 +40,8 @@ Designed and implemented a fully segmented enterprise network featuring:
 Architecture Diagram
 
 <br>
-<br>
-
 Homelab Topology
 
-<br>
 <br>
 
 <p align="left">
@@ -56,12 +53,6 @@ Homelab Topology
 
 Architecture Highlights
 
-<br>
-<br>
-
-Network Segmentation
-
-<br>
 <br>
 
 Implemented VLAN-based isolation to separate:
@@ -83,21 +74,17 @@ Implemented VLAN-based isolation to separate:
 This approach reduces lateral movement opportunities and follows common enterprise security practices.
 
 <br>
-<br>
 
 Management Plane Protection
 
-<br>
 <br>
 
 Created a dedicated management network to isolate administrative services from user traffic.
 
 <br>
-<br>
 
 Protected systems include:
 
-<br>
 <br>
 
     - pfSense Firewall
@@ -107,16 +94,13 @@ Protected systems include:
     - Infrastructure Management Services
 
 <br>
-<br>
 
 Centralized DNS
 
 <br>
-<br>
 
 Implemented AdGuard Home as the centralized DNS platform providing:
 
-<br>
 <br>
 
     - DNS filtering
@@ -126,16 +110,13 @@ Implemented AdGuard Home as the centralized DNS platform providing:
     - Improved troubleshooting visibility
 
 <br>
-<br>
 
 Infrastructure Services
 
 <br>
-<br>
 
 The segmented architecture supports:
 
-<br>
 <br>
 
     - Active Directory
@@ -146,11 +127,9 @@ The segmented architecture supports:
     - Future Security Onion Deployment
 
 <br>
-<br>
 
 VLAN Design
 
-<br>
 <br>
 
 | VLAN | Name | Purpose |
@@ -164,11 +143,9 @@ VLAN Design
 | 999 | Blackhole | Unused/Sink VLAN |
 
 <br>
-<br>
 
 Skills Demonstrated
 
-<br>
 <br>
 
 Domain	Technologies & Concepts
@@ -181,16 +158,13 @@ Documentation	Infrastructure Design Documentation
 Operations	Troubleshooting, Change Management
 
 <br>
-<br>
 
 Technologies Used
 
 <br>
-<br>
 
 Core Infrastructure
 
-<br>
 <br>
 
     - pfSense Plus
@@ -200,11 +174,9 @@ Core Infrastructure
     - Enterprise Wireless Access Point
 
 <br>
-<br>
 
 Identity & Authentication
 
-<br>
 <br>
 
     - Active Directory
@@ -212,11 +184,9 @@ Identity & Authentication
     - DHCP
 
 <br>
-<br>
 
 Security
 
-<br>
 <br>
 
     - VLAN Segmentation
@@ -225,10 +195,8 @@ Security
     - Management Network Isolation
 
 <br>
-<br>
 
 Future Platform Integrations
-<br>
 <br>
 
     - Security Onion
@@ -238,16 +206,13 @@ Future Platform Integrations
     - Monitoring and Alerting
 
 <br>
-<br>
 
 Configuration Screenshots
 
 <br>
-<br>
 
 pfSense Configuration
 
-<br>
 <br>
 
 <p align="left">
@@ -257,10 +222,8 @@ pfSense Configuration
   </p>
 
 <br>
-<br>
 
 MokerLink Switch Configuration
-<br>
 <br>
 
 <p align="left">
@@ -268,10 +231,8 @@ MokerLink Switch Configuration
 </p>
 
 <br>
-<br>
 
 Wireless Infrastructure
-<br>
 <br>
 
 <p align="center">
@@ -281,11 +242,9 @@ Wireless Infrastructure
 </p>
 
 <br>
-<br>
 
 DNS Infrastructure
 
-<br>
 <br>
 
 <p align="left">
@@ -293,11 +252,9 @@ DNS Infrastructure
 </p>
 
 <br>
-<br>
 
 Verifying Firewall Rules
 
-<br>
 <br>
 
 <p>
@@ -307,16 +264,13 @@ Verifying Firewall Rules
 </p>
 
 <br>
-<br>
 
 Lessons Learned
 
 <br>
-<br>
 
 Key takeaways from this project include:
     
-<br>
 <br>
     
     - Importance of management plane isolation
@@ -328,16 +282,13 @@ Key takeaways from this project include:
     - Security-first network design
 
 <br>
-<br>
 
 Future Improvements
 
 <br>
-<br>
 
 Planned enhancements include:
 
-<br>
 <br>
 
     - Security Onion deployment
@@ -350,21 +301,17 @@ Planned enhancements include:
     - Infrastructure-as-Code deployment workflows
 
 <br>
-<br>
 
 Detailed Documentation
 
-<br>
 <br>
 
 Additional technical documentation is available within the /docs directory.
 
 <br>
-<br>
 
 Deployment Guides
 
-<br>
 <br>
 
     - Network Segmentation Deployment Guide
@@ -373,16 +320,13 @@ Deployment Guides
     - AdGuard Home Configuration Guide
 
 <br>
-<br>
 
 Resume Impact
 
 <br>
-<br>
 
 This project demonstrates practical experience with:
 
-<br>
 <br>
 
     - Enterprise network design
@@ -395,11 +339,9 @@ This project demonstrates practical experience with:
     - Technical documentation
 
 <br>
-<br>
 
 Resume Bullet
 
-<br>
 <br>
 
 Designed and implemented a fully segmented enterprise-style network using pfSense, VLANs, managed switching, Active Directory, and centralized DNS services. Created isolated Trusted, IoT, Lab, Guest, Server, and Management networks with firewall-controlled inter-VLAN routing, DNS filtering through AdGuard Home, and secure management-plane separation, improving visibility while reducing lateral movement risk.
