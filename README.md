@@ -169,6 +169,15 @@ DNS Infrastructure
 </p>
 
 
+Verifying Firewall Rules
+
+<p>
+<img src="screenshots/Ipconfig v30.png" width="30%">
+<img src="screenshots/nslookup.png" width="30%">
+<img src="screenshots/TestNet.png" width="30%">
+</p>
+
+
 Lessons Learned
 
 Key takeaways from this project include:
