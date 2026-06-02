@@ -29,7 +29,7 @@ Architecture Diagram
 Homelab Topology
 
 <p align="left">
-<img src="/diagrams/network-diagram.png.png" width="80%">
+<img src="/screenshots/network-diagram.png" width="80%">
 </p>
 
 Architecture Highlights
