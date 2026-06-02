@@ -21,6 +21,9 @@ The objective was to improve security, reduce attack surface, separate device tr
 
 ## VLAN Design
 
+
+![](images/network-diagram.png)
+
 | VLAN | Name | Purpose |
 |--------|--------|--------|
 | 10 | Orion | Trusted Devices |
