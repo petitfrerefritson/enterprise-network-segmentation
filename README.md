@@ -35,7 +35,9 @@ Homelab Topology
 Architecture Highlights
 
 Network Segmentation
+
 Implemented VLAN-based isolation to separate:
+
     - Trusted Devices
     - IoT Devices
     - Guest Devices
@@ -43,10 +45,13 @@ Implemented VLAN-based isolation to separate:
     - Server Infrastructure
     - Management Systems
     - Unused/Sink Ports
+
 This approach reduces lateral movement opportunities and follows common enterprise security practices.
 
 Management Plane Protection
+
 Created a dedicated management network to isolate administrative services from user traffic.
+
 Protected systems include:
 
     - pfSense Firewall
@@ -56,6 +61,7 @@ Protected systems include:
     - Infrastructure Management Services
 
 Centralized DNS
+
 Implemented AdGuard Home as the centralized DNS platform providing:
 
     - DNS filtering
@@ -65,6 +71,7 @@ Implemented AdGuard Home as the centralized DNS platform providing:
     - Improved troubleshooting visibility
 
 Infrastructure Services
+
 The segmented architecture supports:
     - Active Directory
     - DNS Services
@@ -86,6 +93,7 @@ VLAN Design
 | 999 | Blackhole | Unused/Sink VLAN |
 
 Skills Demonstrated
+
 Domain	Technologies & Concepts
 Networking	VLAN Design, Trunking, Inter-VLAN Routing
 Security	Network Segmentation, Firewall Policy Design
