@@ -22,7 +22,7 @@ The objective was to improve security, reduce attack surface, separate device tr
 ## VLAN Design
 
 
-![](images/network-diagram.png)
+![A network diagram showing segmented VLANs and firewall architecture in a homelab environment with labeled VLANs for trusted devices, IoT, lab, guest, servers, management, and unused sink traffic](images/network-diagram.png)
 
 | VLAN | Name | Purpose |
 |--------|--------|--------|
