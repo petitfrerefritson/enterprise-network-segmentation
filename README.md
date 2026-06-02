@@ -66,7 +66,7 @@ Implemented VLAN-based isolation to separate:
 <br>
 This approach reduces lateral movement opportunities and follows common enterprise security practices.
 
-
+<br>
 <br>
 
 Management Plane Protection
