@@ -130,9 +130,7 @@ VLAN Design
 <br>
 
 Skills Demonstrated
-
 <br>
-
 Domain	Technologies & Concepts
 Networking	VLAN Design, Trunking, Inter-VLAN Routing
 Security	Network Segmentation, Firewall Policy Design
