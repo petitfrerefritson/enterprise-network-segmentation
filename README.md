@@ -313,3 +313,6 @@ Resume Bullet
 -Created isolated Trusted, IoT, Lab, Guest, Server, and Management networks with firewall-controlled inter-VLAN routing, DNS filtering through AdGuard Home, and secure management-plane separation, improving visibility while reducing lateral movement risk.
 <br>
 <br>
+<p align="right">
+<img src="screenshots/Rebel Alliance ASCII emblem.png" width="20px" >
+</p>
