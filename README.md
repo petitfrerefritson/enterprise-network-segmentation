@@ -42,6 +42,7 @@ The objective was to improve security, reduce attack surface, separate device tr
 - Proxmox VE
 - Dell Precision 7810
 - MokerLink Managed Switch
+- Access Point
 - Active Directory
 - AdGuard Home
 - VLANs
