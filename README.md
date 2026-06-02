@@ -314,5 +314,5 @@ Resume Bullet
 <br>
 <br>
 <p align="right">
-<img src="screenshots/Rebel Alliance ASCII emblem.png" width="20px" >
+<img src="screenshots/Rebel Alliance ASCII emblem.png" width="35px" >
 </p>
