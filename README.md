@@ -12,6 +12,10 @@ The objective was to reduce attack surface, isolate device trust levels, improve
 ![Status](https://img.shields.io/badge/Project-Completed-success)
 
 <br>
+
+- [Enterprise Network Segmentaion with Pfsense, Mokerlink 10G Switch and AdGuard Home](docs/Enterprise%20Network%20Segmentation%20with%20pfSense,%20MokerLink%2010G%20Switch,%20and%20AdGuard%20Home.md)
+- [Vlan Design](docs/vlan-design.md)
+
 <br>
 
 
